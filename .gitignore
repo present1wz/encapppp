@@ -12,3 +12,37 @@ public class TestStudent {
     }
     
  }
+
+----------------------------------------------------------------------------------
+
+
+public class Student {
+    private String id;
+    private String name;
+    String setId;
+    String setName;
+    
+    void showData(){
+        System.out.println("ID: "+id+",name: "+name);
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+     
+        
+    }
+
